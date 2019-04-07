@@ -1,0 +1,79 @@
+
+body{
+	background: url("images/stadium.png") no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+h1{
+	font-family: "orange_juiceregular";
+	font-size: 80px;
+	margin-top: 3vh;
+	margin-bottom: 1vh;
+}
+
+.row{
+	margin-bottom: 4vh;
+	margin-left: 3vw;
+	margin-right: 3vw;
+}
+
+.btn{
+	font-family: "minnieregular";
+	font-size: 16px;
+	background-color: #1c5677;
+	color: white;
+	padding: 1vh 1vw;
+}
+
+.btn:hover{
+	color: #efad07;
+}
+
+.btn:focus{
+	outline: 2px solid #efad07 !important;
+	background-color: #1680bc;
+	color: #efad07;
+}
+
+.cartoon-button{
+	margin: .5vh 1vw;
+}
+
+.dotted-border{
+	border: 6px dotted #efad07;
+}
+
+.comic-sans-font{
+	font-family: "Comic Sans MS";
+	font-size: 18px;
+	font-weight: 800;
+	color: black;
+}
+
+.gif-image{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.individual-gif-container{
+	float: left;
+	margin: 2vh 3vw 2vh 3vw;
+}
+
+#submit{
+	margin-top: 1.5vh;
+}
+
+#cartoon-show{
+	margin-top: 1.5vh;
+	width: 100%;
+}
+
+#cartoon-show:focus{
+	outline: 2px solid #efad07 !important;
+}
+
+#gif-container{
+	font-size: 22px;
+}

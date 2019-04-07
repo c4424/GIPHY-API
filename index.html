@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cartoon GIF Generator</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">		
+		<link rel="stylesheet" type="text/css" href="style.css">
+		       
+	</head>
+	<body>
+        <script> 
+            var queryURL = "https://api.giphy.com/v1/gifs/search?q=api_key=dQqpG4CCgFiI7BVsWbCsaAYkXKEY4PKC"; 
+        </script>
+
+		<div class = "row">
+			<div align="center"><h1><b>GIF magic button</b></h1></div>
+			<br>
+			<div id = "button-container" class = "dotted-border">
+			</div>
+        </div>
+        
+		<div class = "row">
+			<div id = "gif-container" class = "col-xs-8 comic-sans-font">
+			</div>
+			<div class = "col-xs-1">
+			</div>
+			<div class = "col-xs-3">
+				<form class="comic-sans-font">
+					Add buttons for your favorite cartoons:<br>
+					<input type = "text" name = "cartoon-show" id = "cartoon-show" class="comic-sans-font">
+					<input type = "submit" value = "Submit" class = "btn" id = "submit">
+				</form>
+			</div>
+		</div>
+		<script	src="http://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/GIPHY-API.js"></script>
+	</body>
+	</html>
